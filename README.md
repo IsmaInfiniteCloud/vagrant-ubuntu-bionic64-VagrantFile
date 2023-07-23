@@ -7,7 +7,9 @@ This repository provides a Vagrantfile to provision an Ubuntu Bionic64 virtual m
 
 Prerequisites
 VirtualBox: A free and open-source hypervisor for x86 computers.
+link to download : https://www.virtualbox.org/wiki/Downloads
 Vagrant: An open-source software product for building and maintaining portable virtual software development environments.
+link to download : https://developer.hashicorp.com/vagrant/downloads
 Ensure both VirtualBox and Vagrant are installed on your host machine before proceeding.
 
 Getting Started
