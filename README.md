@@ -25,6 +25,14 @@ Navigate to the Directory: Open a terminal and navigate to the directory contain
 cd [DIRECTORY_PATH]
 ///////////////////////////
 
+Update Synced Folder Path: Before starting the VM, make sure to update the synced folder path in the Vagrantfile. Locate the line:
+
+//////////////////////////////////////////////////////////////////////////////////////////
+config.vm.synced_folder "C:/Users/path/to/your/folder", "/vagrant_share", create: true
+//////////////////////////////////////////////////////////////////////////////////////////
+
+Replace C:/Users/path/to/your/folder with the path to the directory on your host machine you'd like to sync with the VM.
+
 Start the VM: Use the command below to provision and start your virtual machine:
 
 ////////////////////////////
