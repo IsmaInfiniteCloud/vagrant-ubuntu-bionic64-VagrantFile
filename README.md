@@ -18,12 +18,14 @@ Here's how to get your Ubuntu Bionic64 VM up and running:
 Clone the Repository: Clone this repository to your local machine using:
 
 ////////////////////////////
+
 git clone [REPO_LINK]
 ////////////////////////////
 
 Navigate to the Directory: Open a terminal and navigate to the directory containing the cloned repository.
 
 ////////////////////////////
+
 cd [DIRECTORY_PATH]
 ///////////////////////////
 
@@ -38,18 +40,21 @@ Replace C:/Users/path/to/your/folder with the path to the directory on your host
 Start the VM: Use the command below to provision and start your virtual machine:
 
 ////////////////////////////
+
 vagrant up
 ////////////////////////////
 
 SSH into the VM: Once the VM is up and running, you can access its shell by using:
 
 ////////////////////////////
+
 vagrant ssh
 ////////////////////////////
 
 Shutting Down the VM: When done, you can halt the VM with the following command:
 
 ////////////////////////////
+
 vagrant halt
 ////////////////////////////
 
